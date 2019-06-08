@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="basic1.css">
+    <link rel="stylesheet" type="text/css" href="projects/projects.css">
+    <script src="java.js"></script>
+    <script src="projects.js"></script>
+
+    <body>
+	<header>	
+		
+	</header>
+    
+    <nav>
+		<a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">JavaScript</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div>
+        <h1 class="text-uppercase">JavaScript Projects</h1>
+        <p>
+    </div>  
+    
+    <p><p style="text-indent: 40px">The final project will be a website consisting of five to six individual pages. Each page will contain the following themes introduction, about, resume, projects and past work, and contact page. A CSS style sheet is required to control the layout and design of each page. The JavaScript pages will control the photo carousel and projects page. The first page will be the Index page, which is the introduction page. In this page, there will be a brief introduction and my mission statement and core values.
+    </p>
+    
+     
+      <ul>
+        <li><ul>The layout of the About page controll by the basic1.css file, which controls the entire website.</ul></li>
+          
+        <li><ul>The resume page is formatted with bullets in order to present the resume as it were in a printed document. A div class was created to style the in-line block bullets. The rest is a div to set the list of items  </ul></li>
+          
+        <li><ul>The Project page is controlled by the java.js and projects.js to activate the "Click Me". Once clicked the animated blue box will start on the upper right corner and slide diagnally to the center of the yellow box.  </ul></li>
+          
+        <li><ul>The contact page will contain contact information and controlled by the form.js file. The form.css file controlls the fields.   </ul></li>
+          
+        <li><ul>The CSS style sheet will control the layout and design flow of the entire website. It also contains styling feature unique to individual page and sections within pages. </ul></li>
+          
+        <li><ul>A separate folder will be created as a central repository for all images. Each images will be referenced in this folder with the HREF tag.</ul></li>
+    </ul>
+<!--start CSS bouncing box animation    -->
+   <p><button onclick="myMove()">Click Me</button></p> 
+
+<div id ="container">
+  <div id ="animate"></div>
+</div>
+<!--end CSS bouncing box animation    -->
+    <p>The bouncing Twitter icon is set to bounce at determined rate and bounce count within the JavaScript in the projects.js file.</p>
+<!--start bouncing twitter animation    -->
+     <script type="application/javascript">
+        </script>
+    <body onload="draw();">
+    <canvas id="canvas" width="480" height="320" style="border:solid 1px;"></canvas>
+  </body>
+<!--end bouncing twitter    -->
+      
+    </body>    
+    
+    <footer>
+		<div class="contentWrapper">
+			<div class="social"><a href="https://www.instagram.com/v4pic/"><img src="images/instagram.png" height="36" width="36" alt="instagram">
+                </a>
+            </div>
+			<p>© MADE WITH LOVE AND LOTS OF HEADACHES BY VICTOR</p>
+		</div>
+	</footer>
+     </head>
+</html>
+    
+   

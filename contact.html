@@ -1,0 +1,70 @@
+<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>My Info</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="basic1.css">
+    <script src="form.js"></script>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <script src="form.js"></script>
+
+<body>
+	<header>	
+		
+	</header>
+    
+    <nav>
+		<a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">JavaScript</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    
+<main role="main">
+	<div class="contentWrapper">
+        <div class="signup-form">
+				<form action="php-scripts/form-handler.php">
+					<div>
+		<form action="" method="post" name="signUpForm" id="signUpForm">
+			<fieldset id="signUp">
+				<legend>Sign Up For Text Alerts</legend>
+
+					<label for="nameField">Name:</label>
+					<input id="nameField" name="nameField" type="text" class="textfield" value="First and Last Name" onFocus="clearName();" onBlur="resetName();">
+
+					<label for="phoneField">Phone:</label>
+					<input id="phoneField" name="phoneField" type="text" class="textfield" value="example: 212-123-1234" onFocus="clearPhone();" onBlur="resetPhone();">
+                
+                <label for="emailField">Email:</label>
+					<input id="emailField" name="emailField" type="text" class="textfield" value="example: you@yourdomain.com" onFocus="clearEmail();" onBlur="resetEmail();">
+                                
+                 <label for="commentsField">Comments:</label>
+					<input id="comments" name="comments" type="text" class="textfield" value=" " onFocus="clearComments();" onBlur="resetComments();">
+
+					<input id="submit" type="submit" name="submit" value="Contac Me!">
+                    <input type="hidden" name="end_display" value="../thankyou.php">
+                
+            
+			</fieldset>
+		</form>
+	</div>
+            </form>
+        </div>
+    </div>
+</main>
+    	<footer>
+		<div class="contentWrapper">
+			<div class="social"><a href="https://www.instagram.com/v4pic/"><img src="images/instagram.png" height="36" width="36" alt="instagram">
+                </a>
+            </div>
+			<p>© MADE WITH LOVE AND LOTS OF HEADACHES BY VICTOR FOR AN "A"</p>
+		</div>
+	</footer>
+    </body>
+    </head>
+    </html>
+</html>
